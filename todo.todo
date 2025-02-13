@@ -1,0 +1,14 @@
+Create A Conda Environment and cofigures to activate the Environment ( Anaconda Navigator)
+--> conda create -n yolo_env python=3.8
+--> conda activate yolo_env
+
+
+installing Libraries
+--> pip install flask numpy tensorflow keras scikit-learn pickle-mixin streamlit
+pip install numpy==1.23.5 scikit-learn==1.2.0 tensorflow==2.10.0 keras==2.10.0
+
+ 
+
+
+Run App
+streamlit run app.py 
